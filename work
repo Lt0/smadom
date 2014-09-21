@@ -1,0 +1,3 @@
+#!/bin/sh
+
+kate ./*.c ./*.h ./Makefile ./work ./smadom-config ./install ./uninstall 1>/dev/null 2>&1 &

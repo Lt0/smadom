@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sudo rm /sbin/smadom
+sudo rm -r /etc/smadom

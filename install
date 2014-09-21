@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "copying binary file to /sbin/"
+sudo cp -f ./smadom ./auto_table_light ./auto_stair_light ./auto_bed_light ./auto_bed_fan /sbin/
+
+echo "make dir /etc/smadom"
+sudo mkdir /etc/smadom/
+
+echo "copying smadon-config to /etc/smadom"
+sudo cp ./smadom-config /etc/smadom/
