@@ -1,6 +1,8 @@
 smadom
 ======
 
-An electrical appliances control toolkit write by C （server which run in）.
-I used it to control three lights and one electric fan in my domistory.The auto identification module was not complete which work depends on the IP address of wifi.
-It depends on the wiringPi project of raspberry so that if you want to compile it you must install the wiringPi in your raspberry.
+一个通过树莓派控制电器的软件。
+树莓派通过GPIO接口控制各种电器的开关以及连接传感器（温度传感器，光线传感器，距离传感器等）搜集环境信息进行自动控制，另外可通过web界面进行手动控制。
+附带树莓派上的音乐播放器moc的简单控制功能。
+
+本软件通过Makefile进行编译管理，可在树莓派上安装cmake和gnu toolchain后直接编译运行。
